@@ -4,7 +4,7 @@ class Dog
     @name=name
     @breed=breed
     @ge=age
-    @@all<< self.new
+    @@all<< self
   end
 end 
     
